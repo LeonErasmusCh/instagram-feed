@@ -1,0 +1,55 @@
+body {
+    background-color: #bdbdbd;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.post h2, .post p {
+    margin: 0;
+    padding: 10px;
+}
+
+    
+.post {
+    background-color: white;
+    margin-top: 15px;
+}
+
+div.post-header {
+    display: flex;
+}
+
+
+div.post .post-header div:first-child {
+    width: 80%;
+}
+
+div.post .post-header div:last-child {
+    width: 20%;
+    padding:16px;
+    text-align: right;
+    color: #bdbdbd;
+}
+
+div.post img {
+    width:100%;
+}
+
+div.container {
+    width: 60vw;
+    margin: auto;
+}
+
